@@ -1,0 +1,53 @@
+.footerBlock{
+  margin: 148px 0 0 0;
+  border-top: 1px solid rgba(21, 191, 253, 0.7);
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(5px);
+  .mainBlock{
+    display: flex;
+    padding: 33px 0 34px 0;
+    .firstBlock{
+      display: flex;
+      flex-direction: column;
+      row-gap: 24px;
+      width: 231px;
+      margin: 0 193px 0 0;
+      .footerLogo1{
+        width: 169px;
+        height: 33px;
+      }
+    }
+    .secondBlock{
+      display: flex;
+      flex-direction: column;
+      margin: 0 130px 0 0;
+      .secondBlockTitle{
+        color: white;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        margin: 0 0 24px 0;
+      }
+      .secondBlockDescriptions{
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+      }
+    }
+    .thirdBlock{
+      display: flex;
+      flex-direction: column;
+      row-gap: 16px;
+      padding-top: 45px;
+      margin: 0 165px 0 0;
+    }
+    .fourthBlock{
+      text-align: left;
+      .logosBlock{
+        display: flex;
+        column-gap: 25px;
+        margin-top: 25px;
+      }
+    }
+  }
+}

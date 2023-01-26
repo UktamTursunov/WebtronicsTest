@@ -1,0 +1,25 @@
+.stepsBlock{
+    margin: 184px 0 100px 0;
+    .stepCardsBlock{
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        .leftCardsBlock{
+            margin: 56px 0 100px 0;
+            display: flex;
+            flex-direction: column;
+            row-gap: 144px;
+        }
+        .rightCardsBlock{
+            margin: 180px 0 100px 0;
+            display: flex;
+            flex-direction: column;
+            row-gap: 144px;
+        }
+        .lineWithArrows{
+            position: absolute;
+            top: 158px;
+            left: 515px;
+        }
+    }
+}

@@ -1,0 +1,66 @@
+.carouselBlock{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    .carouselContent{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        row-gap: 17px;
+    }
+    .slidersBlock {
+        width: 68%;
+        .prevNextButtons {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            .buttonsBlock {
+                margin-bottom: 16px;
+                display: flex;
+                justify-content: flex-end;
+            }
+            .buttonBackground {
+                padding: 1px;
+                background: linear-gradient(152.14deg, rgba(21, 191, 253, 0.7) 9.96%, rgba(156, 55, 253, 0.7) 100%);
+                border-radius: 8px;
+                width: 40px;
+                height: 40px;
+
+
+                &:first-child {
+                    margin-right: 24px;
+                }
+                button {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    height: 100%;
+                    padding: 0;
+                    color: white;
+                    border-radius: 8px;
+                    border: none;
+                    background-color:  #181C37;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: #A2CBFB;
+                    }
+                }
+            }
+        }
+        .carousel {
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+            img {
+                max-width: 100%;
+                object-fit: cover;
+                border-radius: 16px;
+                clip-path: polygon(0 0, 100% 0, 100% 30px, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%);
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.accordionBlock{
+  //clip-path: polygon(9% 0, 100% 2%, 100% 90%, 90% 100%, 0 100%, 0 9%);
+  width: 703px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  border: 1px solid rgba(21, 191, 253, 0.7);
+  padding: 27.5px 73px 27.5px 24px;
+  text-align: left;
+  position: relative;
+  .accordionBtn{
+    width: 10px;
+    height: 10px;
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 29px;
+    right: 21px;
+    cursor: pointer;
+    .accordionMinus{
+      width: 16px;
+      height: 2px;
+    }
+  }
+  .accordionCLoseBtn{
+    width: 10px;
+    height: 10px;
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 29px;
+    right: 21px;
+    cursor: pointer;
+    .accordionPlus{
+      width: 10px;
+      height: 10px;
+    }
+  }
+}

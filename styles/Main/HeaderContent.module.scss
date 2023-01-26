@@ -1,0 +1,21 @@
+.headerContentBlock{
+  margin: 195px 0 189px 0;
+  .headerContentTitle{
+    font-weight: 600;
+    font-size: 150px;
+    line-height: 120%;
+  }
+  .headerContentBlockTop{
+    display: flex;
+    align-items: center;
+    column-gap: 57px;
+  }
+  .headerContentBlockCenter{
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+  }
+  .headerContentBlockBottom{
+    text-align: right;
+  }
+}

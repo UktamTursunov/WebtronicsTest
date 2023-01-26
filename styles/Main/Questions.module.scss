@@ -1,0 +1,23 @@
+.questionsBlock{
+  text-align: center;
+  .centerBlock{
+    display: flex;
+    justify-content: space-between;
+    .leftSideBlock{
+      margin: 56px 0 0 0;
+      width: 496px;
+      position: relative;
+      .questionLogo{
+        position: absolute;
+        top: 100px;
+        right: 46px;
+      }
+    }
+    .rightSideBlock{
+      display: flex;
+      flex-direction: column;
+      row-gap: 24px;
+      margin: 56px 0 0 0;
+    }
+  }
+}

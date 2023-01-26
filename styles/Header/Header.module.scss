@@ -1,0 +1,30 @@
+.headerBlock{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 35px 0;
+    backdrop-filter: blur(5px);
+    z-index: 10;
+    .header{
+        display: flex;
+        column-gap: 520px;
+        position: fixed;
+        top: 38px;
+        backdrop-filter: blur(5px);
+        z-index: 3;
+        .headerLogo{
+            width: 169px;
+            height: 33px;
+        }
+        .links{
+            display: flex;
+            justify-content: space-around;
+            column-gap: 48px;
+            .link{
+                text-decoration: none;
+                font-weight: 400;
+            }
+        }
+    }
+}

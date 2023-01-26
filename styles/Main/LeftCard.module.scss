@@ -1,0 +1,51 @@
+.blockWithGradient{
+  width: 491px;
+  height: 228px;
+  position: relative;
+  padding: 18.5px 16px 18.5px 0;
+  text-align: left;
+  .gradientBorder{
+    position: absolute;
+    width: 146px;
+    height: 228px;
+    right: 0;
+    top: 0;
+  }
+  .leftCardBlock{
+    width: 475px;
+    height: 191px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    border: 1px solid rgba(21, 191, 253, 0.7);
+  }
+}
+
+.blockWithGradientRight{
+  width: 491px;
+  height: 228px;
+  position: relative;
+  padding: 18.5px 0 18.5px 16px;
+  text-align: left;
+  .gradientBorderRight{
+    position: absolute;
+    width: 146px;
+    height: 228px;
+    left: 0;
+    top: 0;
+  }
+  .leftCardBlockRight{
+    width: 475px;
+    height: 191px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    border: 1px solid rgba(21, 191, 253, 0.7);
+  }
+}
